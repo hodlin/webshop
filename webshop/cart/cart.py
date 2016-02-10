@@ -67,7 +67,8 @@ class Cart(object):
         return sum(item['quantity'] for item in self.cart.values())
 
     def get_total_price(self):
-        return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
+        return sum(Decimal(item['price']) * item['quantity']\
+                   for item in self.cart.values())
 
     def clear(self):
         # Remove cart from session
