@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-28 15:45+0000\n"
+"PO-Revision-Date: 2016-02-28 15:59+0000\n"
+"Last-Translator: b'  <mr.diomin@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Translated-Using: django-rosetta 0.7.6\n"
+
+#: cart/forms.py:10 cart/templates/cart/detail.html:16
+msgid "Quantity"
+msgstr "Кількітсь"
+
+#: cart/templates/cart/detail.html:6 cart/templates/cart/detail.html.py:10
+msgid "Your shopping cart"
+msgstr "Ваш кошик"
+
+#: cart/templates/cart/detail.html:14
+msgid "Image"
+msgstr "Рисунок"
+
+#: cart/templates/cart/detail.html:15
+msgid "Product"
+msgstr "Товар"
+
+#: cart/templates/cart/detail.html:17 cart/templates/cart/detail.html.py:40
+msgid "Remove"
+msgstr "Видалити"
+
+#: cart/templates/cart/detail.html:18
+msgid "Unit price"
+msgstr "Ціна за одиницю"
+
+#: cart/templates/cart/detail.html:19
+msgid "Price"
+msgstr "Ціна"
+
+#: cart/templates/cart/detail.html:54
+#, python-format
+msgid ""
+"\n"
+"            \"%(code)s\" coupon\n"
+"            (%(discount)s%% off)\n"
+"            "
+msgstr ""
+"\n"
+"            \"%(code)s\" знижка\n"
+"            (-%(discount)s%%)\n"
+"            "
+
+#: cart/templates/cart/detail.html:74
+msgid "Apply a coupon"
+msgstr "Використати знижку"
+
+#: cart/templates/cart/detail.html:81
+msgid "Continue shopping"
+msgstr "Продовжити покупки"
+
+#: cart/templates/cart/detail.html:82
+msgid "Checkout"
+msgstr "Розрахуватися"
+
+#: coupons/forms.py:6
+msgid "Coupon"
+msgstr "Знижка"
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html.py:12
+msgid "Drink shop"
+msgstr "Магазин напоїв"
+
+#: shop/templates/shop/base.html:18
+msgid "Your cart:"
+msgstr "Ваш кошик:"
+
+#: shop/templates/shop/base.html:26
+msgid "Your cart is empty."
+msgstr "Ваш кошик порожній."
+
+#: shop/templates/shop/product/detail.html:18
+msgid "Add to cart"
+msgstr "Додати в кошик"
+
+#: shop/templates/shop/product/list.html:6
+#: shop/templates/shop/product/list.html:24
+msgid "Products"
+msgstr "Товари"
+
+#: shop/templates/shop/product/list.html:11
+msgid "Categories"
+msgstr "Категорії"
+
+#: shop/templates/shop/product/list.html:14
+msgid "All"
+msgstr "Всі"
+
+#: webshop/settings.py:119
+msgid "English"
+msgstr "Англійська мова"
+
+#: webshop/settings.py:120
+msgid "Spanish"
+msgstr "Іспанська мова"
+
+#: webshop/settings.py:121
+msgid "Ukrainian"
+msgstr "Українська мова"
