@@ -128,3 +128,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # django-paypal settings
 PAYPAL_RECEIVER_EMAIL = 'mr.diomin-facilitator@gmail.com'
 PAYPAL_TEST = True
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
