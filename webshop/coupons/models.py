@@ -1,5 +1,5 @@
 from django.db import models
-from django.core.validators import MinValueValidator, MaxLengthValidator
+from django.core.validators import MinValueValidator, MaxValueValidator
 
 
 class Coupon(models.Model):
@@ -7,7 +7,7 @@ class Coupon(models.Model):
     valid_from = models.DateTimeField()
     valid_to = models.DateTimeField()
     discount = models.IntegerField(validators=[MinValueValidator(0),
-                                               MaxLengthValidator(100)])
+                                               MaxValueValidator(100)])
     active = models.BooleanField()
 
     def __str__(self):
