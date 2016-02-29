@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'coupons',
     'rosetta',
     'parler',
+    'localflavor',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -124,6 +125,7 @@ LANGUAGES = (
 
 LOCALE_PATH = (
     os.path.join(BASE_DIR, 'locale/'),
+    # os.path.join(BASE_DIR, 'orders/locale/')
 )
 
 # Static files (CSS, JavaScript, Images)

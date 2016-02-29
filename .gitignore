@@ -2,3 +2,4 @@
 webshop/*.sqlite3
 *.pyc
 ngrok
+*.*~

@@ -3,7 +3,7 @@
 {% load i18n %}
 
 {% block title %}
-  {% if category %}{{ category.title }}{% else %}{{ Products }}{% endif %}
+  {% if category %}{{ category.title }}{% else %}{% trans "Products" %}{% endif %}
 {% endblock %}
 
 {% block content %}

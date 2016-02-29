@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-28 15:45+0000\n"
+"POT-Creation-Date: 2016-02-28 22:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,15 +29,15 @@ msgstr "прізвище"
 
 #: orders/models.py:12
 msgid "e-mail"
-msgstr "електронна адреса"
+msgstr "Електронна адреса"
 
 #: orders/models.py:13
 msgid "address"
-msgstr "поштова адреса"
+msgstr "Поштова адреса"
 
 #: orders/models.py:14
 msgid "postal code"
-msgstr "індекс"
+msgstr "Індекс"
 
 #: orders/models.py:15
 msgid "city"
@@ -63,13 +63,10 @@ msgid ""
 "          \"%(code)s\" (%(discount)s%% off)\n"
 "          "
 msgstr ""
-"\n"
-"          \"%(code)s\" (-%(discount)s%%)\n"
-"          "
 
 #: orders/templates/orders/order/create.html:29
 msgid "Total"
-msgstr "Всього"
+msgstr "Сума"
 
 #: orders/templates/orders/order/create.html:34
 msgid "Place order"
@@ -88,7 +85,7 @@ msgid ""
 "%(order_id)s</strong>.</p>\n"
 "  "
 msgstr ""
-"\n"
-"  <p>Ваше замовлення було розміщено успішно. Номер замовлення - <strong>"
-"%(order_id)s</strong>.</p>\n"
-"  "
+
+#: orders/urls.py:7
+msgid "^create/$"
+msgstr "^створити/$"
